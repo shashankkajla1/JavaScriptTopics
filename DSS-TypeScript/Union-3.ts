@@ -20,3 +20,12 @@ function processValue(value : (string | number)) :  void{
 
 processValue("Mohana"); // Output: String value: Hello
 processValue(100); // Output: Number value: 100
+
+function msg() : void{
+console.log("Hello")
+}
+
+const x: void = msg(); // give you undefined
+console.log(x); // Output: undefined
+
+// ** Here if change data type of x : void is not assigned to i.e. string.

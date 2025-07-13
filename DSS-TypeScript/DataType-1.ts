@@ -39,3 +39,7 @@ array[0] = 1;
 array[1] = "Two";
 array[2] = 3;
 console.log(array);
+
+// ** any Type Decleration **
+let anyVar : any = "Check"
+console.log(anyVar);

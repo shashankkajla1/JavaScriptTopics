@@ -22,3 +22,23 @@ for (let i = 0; i < dateArr.length; i++) {
 
     // Open document validate the pill status in first of thats it
 }
+
+
+let array = ["Bob", "Alice", "Charlie", "Dave"];
+
+let text = "ce"
+let index = 0;
+
+for(let i=0; i<array.length; i++){
+    if(array[i].indexOf(text) !== -1){
+        index = i+1 ;
+    }
+}
+
+console.log(`Index : ${index}`);
+
+if(index === 0){
+    console.log(`No empty string found in the array. ${index}`);
+}
+
+console.log(array[0].indexOf("b")); // -1
