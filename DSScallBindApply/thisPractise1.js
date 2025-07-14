@@ -35,7 +35,7 @@ const objArrow = {
         console.log(this.xxxz);
   }
 }
-
+4
 objArrow.method();
 
 // Case 6.) In html button in case of DOM elements the value of this refers to the element itself.
