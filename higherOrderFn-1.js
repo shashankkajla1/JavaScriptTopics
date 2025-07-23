@@ -1,3 +1,12 @@
+// Call Back : A function passed as an argument to another function and called inside it.
+// Both largestValue, smallValue are callback functions, because they are passed into applyToArray.
+// applyToArray : HigherOrderFn.
+
+/*
+- Callback: The guest at the party.
+- Higher-Order Function: The host who invites and manages the guest.
+*/
+
 let myArrayValue = [1, 2, 3, 7, 8, 11, 4];
 
 const largestValue = (myArr)=>{

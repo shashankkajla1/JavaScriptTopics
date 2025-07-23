@@ -17,6 +17,6 @@ const xj ={
     }
 }
 
-xj.xVal(); // undefined
+xj.xVal(); // 11
 
 
